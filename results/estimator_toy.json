@@ -1,0 +1,20 @@
+{
+  "attacks": {
+    "dual_hybrid": {
+      "log2_rop": 12.091757932755543
+    },
+    "usvp": {
+      "log2_rop": 11.68
+    }
+  },
+  "estimator_path": "/home/varamm/cryptography-tools/lattice-estimator",
+  "kind": "heuristic_toy_LWE_cost_estimate",
+  "limitations": "Heuristic estimator model; not measured runtime, not ML-KEM security.",
+  "parameters": {
+    "m": 40,
+    "n": 40,
+    "q": 3329,
+    "secret_bound": 1,
+    "sigma": 3.0
+  }
+}

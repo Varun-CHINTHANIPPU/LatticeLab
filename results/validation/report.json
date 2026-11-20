@@ -1,0 +1,24 @@
+{
+  "inconsistent_modular_system_rejected": true,
+  "limitations": [
+    "Tamper control checks a known witness, not uniqueness of LWE solutions.",
+    "Noisy witness rejection is not a proof that modular elimination cannot find another solution.",
+    "Exact LLL reducedness alone does not independently establish lattice equivalence.",
+    "This lightweight suite does not rerun full-scale LLL/BKZ attacks."
+  ],
+  "lwe_witness_checks": 24,
+  "noiseless_modular_system_solved": true,
+  "nonzero_error_witnesses": 24,
+  "own_lll_exact_reducedness": true,
+  "parameters": {
+    "m": 12,
+    "n": 8,
+    "q": 3329,
+    "sigma": 3.0
+  },
+  "public_instance_digest": "d3169ac9af4147850536f6d2babd9e0f0ea12f366eb02e09f0760959bdee5724",
+  "seed": 2032,
+  "status": "passed",
+  "tamper_negative_controls": 24,
+  "trials": 24
+}

@@ -1,0 +1,124 @@
+{
+  "artifacts": {
+    "mlkem_reference": {
+      "bytes": 2555,
+      "keys": [
+        "limitations",
+        "ml_kem",
+        "source",
+        "toy"
+      ],
+      "path": "mlkem_comparison/comparison.json",
+      "sha256": "bb15a41bde41618b18fde5e336a3ac7d4ddf5da462b3b3fbdb39dd9a2a36f972",
+      "status": "present"
+    },
+    "multi_seed_paired_tests": {
+      "bytes": 508,
+      "columns": [
+        "n",
+        "left",
+        "right",
+        "pairs",
+        "both_success",
+        "left_only",
+        "right_only",
+        "neither_success",
+        "rate_difference_right_minus_left",
+        "mcnemar_exact_p"
+      ],
+      "path": "multiseed/statistics/paired_tests.csv",
+      "rows": 6,
+      "sha256": "731b3ba3767904272854d96cf934db767db32a460e97597750e1a772049b9c51",
+      "status": "present"
+    },
+    "multi_seed_recovery": {
+      "bytes": 442,
+      "columns": [
+        "n",
+        "reduction",
+        "seeds",
+        "trials",
+        "successes",
+        "rate",
+        "wilson95_low",
+        "wilson95_high"
+      ],
+      "path": "multiseed/statistics/summary.csv",
+      "rows": 6,
+      "sha256": "0a4de3b19de3c1a51af053f47b98007106cee4f3b3c0fa73825205757cc020ab",
+      "status": "present"
+    },
+    "multi_seed_runtime": {
+      "bytes": 1268,
+      "columns": [
+        "n",
+        "reduction",
+        "seeds",
+        "trials",
+        "mean_seconds",
+        "median_seconds",
+        "std_seconds",
+        "min_seconds",
+        "p05_seconds",
+        "p25_seconds",
+        "p75_seconds",
+        "p95_seconds",
+        "max_seconds"
+      ],
+      "path": "performance_multiseed/timing_summary.csv",
+      "rows": 6,
+      "sha256": "ad01d4ff560f0cb90da6434f07d5a1f3da0724802dcd2f156a69f070be8bf792",
+      "status": "present"
+    },
+    "sage_crosscheck": {
+      "bytes": 392,
+      "keys": [
+        "absolute_determinant",
+        "basis",
+        "check",
+        "dimension",
+        "passed",
+        "reduced_basis"
+      ],
+      "path": "sage_crosscheck.json",
+      "sha256": "cce5ce496491b838e4aab00aa3ab7c3bec546013db5e10463bd9e50b84014b49",
+      "status": "present"
+    },
+    "toy_estimator": {
+      "bytes": 444,
+      "keys": [
+        "attacks",
+        "estimator_path",
+        "kind",
+        "limitations",
+        "parameters"
+      ],
+      "path": "estimator_toy.json",
+      "sha256": "f0302e5b031dab39b2b7456e6c888e8df1d9f816bca17e1c7e88065aee0dc4bd",
+      "status": "present"
+    },
+    "validation": {
+      "bytes": 821,
+      "keys": [
+        "inconsistent_modular_system_rejected",
+        "limitations",
+        "lwe_witness_checks",
+        "noiseless_modular_system_solved",
+        "nonzero_error_witnesses",
+        "own_lll_exact_reducedness",
+        "parameters",
+        "public_instance_digest",
+        "seed",
+        "status",
+        "tamper_negative_controls",
+        "trials"
+      ],
+      "path": "validation/report.json",
+      "sha256": "ea0626155b491947a6b6264ddf7b39fbb8b4d72e87d5250442a4be9c77763aab",
+      "status": "present"
+    }
+  },
+  "missing": [],
+  "schema": 1,
+  "source": "local files only"
+}
